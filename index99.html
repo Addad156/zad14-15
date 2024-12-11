@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>wykonal wojciechowski 2g2</title>
+    <title>Formularz mechanika</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fdfde0;
+        }
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        .left, .right {
+            width: 45%;
+        }
+        label {
+            font-weight: bold;
+            display: block;
+            margin-top: 10px;
+        }
+        input, select, textarea {
+            width: 100%;
+            margin-top: 5px;
+        }
+        textarea {
+            resize: vertical;
+        }
+        .buttons {
+            margin-top: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formularz mechanika</h1>
+    <div class="container">
+   
+        <div class="left">
+            <label for="imie">podaj swoje imię:</label>
+            <input type="text" id="imie" name="imie">
+
+            <label for="nazwisko">podaj swoje nazwisko:</label>
+            <input type="text" id="nazwisko" name="nazwisko">
+
+            <label for="email">e-mail:</label>
+            <textarea id="email" name="email"></textarea>
+
+            <label for="woj">podaj swoje województwo:</label>
+            <select id="woj" name="woj">
+                <option value="pomorskie">pomorskie</option>
+                <option value="inne">inne</option>
+            </select>
+
+            <label for="inne">jeśli inne to jakie:</label>
+            <input type="text" id="inne" name="inne">
+        </div>
+
+
+        <div class="right">
+            <label for="szkola">jaka szkołę ukończyłeś:</label>
+            <select id="szkola" name="szkola">
+                <option value="podstawowa">podstawowa</option>
+                <option value="średnia">średnia</option>
+                <option value="wyższa">wyższa</option>
+            </select>
+
+            <label for="doswiadczenie">ile masz lat doświadczenia:</label>
+            <select id="doswiadczenie" name=" doswiadczenie">
+                <option value="0-3">0-3</option>
+                <option value="4-6">4-6</option>
+                <option value="7+">7+</option>
+            </select>
+
+            <label for="pelnoletni">czy jesteś pełnoletni:</label>
+            <select id="pelnoletni" name="pelnoletni">
+                <option value="tak">tak</option>
+                <option value="nie">nie</option>
+            </select>
+
+            <label for="dlaczego">dlaczego ty?:</label>
+            <textarea id="dlaczego" name="dlaczego"></textarea>
+        </div>
+    </div>
+
+    <div class="buttons">
+        <button type="reset">reset</button>
+        <button type="submit">koniec</button>
+    </div>
+</body>
+</html>

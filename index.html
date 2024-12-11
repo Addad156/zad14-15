@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<img src="wojciechowski.png" border=1 align=left>
+
+    <meta charset="utf-8">
+    <title>Wygląd Zadania</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        table {
+            width: 95%;
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        .header, .footer {
+            text-align: center;
+            font-weight: bold;
+        }
+        .left-menu, .right-menu {
+            vertical-align: top;
+        }
+        .main-content {
+            vertical-align: top;
+        }
+        .highlight {
+            background-color: red;
+            color: white;
+            font-weight: bold;
+        }
+        iframe {
+            width: 100%;
+            height: 600px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+
+<table>
+    <tr>
+        <td colspan="3" class="header">
+            LOGO-wojciechowski<br>
+            Gdańsk, 04.12.24
+        </td>
+    </tr>
+    
+
+    <tr>
+       
+        <td class="left-menu" width="20%">
+            <a href="http://www.zse.edu.pl" target="main-frame">Strona ZSE</a><br>
+            <a href="http://www.kuratorium.gda.pl" target="main-frame">Kuratorium</a>
+        </td>
+        
+   
+        <td class="main-content" width="60%">
+           
+<div class="main-content"> 
+<h1>Wpisz: wojciechowski 2g2 11.12.24</h1> 
+<div class="highlight">wojciechowski</div> 
+<p>Layout (interfejs strony internetowej) – element konstrukcji graficznej, w którym ustala się:</p> 
+<ol> <li>rozmieszczenie elementów (treści) na stronie,</li> 
+<li>wygląd (kolorystyka, elementy dekoracyjne, krój czcionki).</li> 
+</ol> <h3>Popularne technologie Layoutu dla stron WWW</h3> 
+<ul> <li>w oparciu o tabele (iframe) lub ramy (frame)</li> 
+<li>w oparciu o DIV'y</li> 
+<li>w oparciu o instrukcje HTML5 (nav, ...)</li> </ul> </div>
+        </td>
+        
+        <td class="right-menu" width="20%">
+            <img src="mapa.gif" alt="Mapa klikalna" usemap="#mapa">
+            <map name="mapa">
+                <area shape="rect" coords="5,5,60,60" href="index4.html" alt="Prostokąt" target="main-frame">
+                <area shape="rect" coords="5,65,60,120" href="index99.html" alt="Kolejny prostokąt" target="main-frame">
+                <area shape="circle" coords="35,160,25" href="mailto:mkryniew@ids.gda.pl" alt="Koło" target="main-frame">
+                <area shape="poly" coords="35,200,60,250,10,250" href="index2.html" alt="Trójkąt" target="main-frame">
+                <area shape="circle" coords="35,300,25" href="menu.html" alt="Kolejne koło" target="main-frame">
+            </map>
+        </td>
+    </tr>
+    
+
+    <tr>
+        <td colspan="3" class="footer">
+            STOPKA-wojciechowski<br>
+            Gdańsk, 04.12.24
+ <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+        .section {
+            border: 1px solid #ccc;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .preview {
+            font-size: 2em;
+            font-weight: bold;
+            margin: 10px 0;
+            text-align: center;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <div class="container">
+           
+            <div class="section">
+                <label for="url">Podaj adres Twojej strony www:</label><br>
+                <input type="text" id="url" name="url" placeholder="http://" style="width: 100%;">
+            </div>
+
+   
+            <div class="section">
+                <h3>Wybierz wygląd licznika:</h3>
+                <label for="start">Zacznij liczyć od:</label>
+                <input type="number" id="start" name="start" value="0" style="width: 100%;"><br>
+                <input type="checkbox" id="unique" name="unique">
+                <label for="unique">Zliczaj tylko unikalne</label><br>
+                <label for="textColor">Kolor tekstu:</label>
+                <input type="color" id="textColor" name="textColor"><br>
+                <label for="border">Obramowanie:</label>
+                <select id="border" name="border">
+                    <option value="none">Brak</option>
+                    <option value="solid">Liniowe</option>
+                    <option value="dotted">Kropkowane</option>
+                </select>
+            </div>
+
+         
+            <div class="section">
+                <h3>Wybierz czcionkę:</h3>
+                <input type="radio" id="impract" name="font" value="impact" checked>
+                <label for="impact">123456789</label><br>
+                <input type="radio" id="trattatello" name="font" value="trattatello">
+                <label for="trattatello"><b>123456789</b></label><br>
+                <input type="radio" id="courier" name="font" value="courier">
+                <label for="courier"><i>123456789</i></label>
+            </div>
+
+       
+            <div class="section">
+                <h3>Wybierz tło dla licznika:</h3>
+                <input type="radio" id="transparent" name="background" value="transparent" checked>
+                <label for="transparent">Przezroczyste</label><br>
+                <input type="radio" id="color" name="background" value="color">
+                <label for="color">Kolor:</label>
+                <input type="color" id="bgColor" name="bgColor"><br>
+                <input type="radio" id="theme1" name="background" value="theme1">
+                <label for="theme1">Motyw 1</label><br>
+                <input type="radio" id="theme2" name="background" value="theme2">
+                <label for="theme2">Motyw 2</label>
+            </div>
+
+        
+            <div class="section">
+                <h3>Podgląd licznika:</h3>
+                <div class="preview" id="counterPreview">000000</div>
+            </div>
+        </div>
+
+        <button type="button" onclick="generateCounter()">Wygeneruj licznik</button>
+    </form>
+
+    <script>
+        function generateCounter() {
+            const startValue = document.getElementById('start').value;
+            const textColor = document.getElementById('textColor').value;
+            const borderStyle = document.getElementById('border').value;
+            const selectedFont = document.querySelector('input[name="font"]:checked').value;
+            const selectedBackground = document.querySelector('input[name="background"]:checked').value;
+            const bgColor = document.getElementById('bgColor').value;
+
+            const preview = document.getElementById('counterPreview');
+
+            // Update preview styles
+            preview.textContent = startValue.padStart(6, '0');
+            preview.style.color = textColor;
+            preview.style.border = borderStyle === 'none' ? 'none' : `2px ${borderStyle} ${textColor}`;
+
+            if (selectedFont === 'font1') {
+                preview.style.fontWeight = 'normal';
+                preview.style.fontStyle = 'normal';
+            } else if (selectedFont === 'font2') {
+                preview.style.fontWeight = 'bold';
+                preview.style.fontStyle = 'normal';
+            } else if (selectedFont === 'font3') {
+                preview.style.fontWeight = 'normal';
+                preview.style.fontStyle = 'italic';
+            }
+
+            if (selectedBackground === 'transparent') {
+                preview.style.backgroundColor = 'transparent';
+            } else if (selectedBackground === 'color') {
+                preview.style.backgroundColor = bgColor;
+            }
+        }
+    </script>
+
+
+
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
